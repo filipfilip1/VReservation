@@ -21,8 +21,8 @@ namespace VisitReservation.Data
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Specialization> Specializations { get; set; } 
         public DbSet<TreatedDisease> TreatedDiseases { get; set; }
-        public DbSet<Report> Report { get; set;}
-        public DbSet<DoctorAvailability> DoctorAvailability { get; set; }
+        public DbSet<Report> Reports { get; set;}
+        public DbSet<DoctorAvailability> DoctorAvailabilities { get; set; }
         public DbSet<DoctorEducation> DoctorEducations { get; set; }
         public DbSet<DoctorMedicalService> DoctorMedicalServices { get; set; }
         public DbSet<DoctorSpecialization> DoctorSpecializations { get; set; }
